@@ -17,8 +17,8 @@ This Python script adds a semi-transparent overlay to all `.jpg` images in the f
 
 ## 5.🎯 Features
 ✅ Automatically processes all .jpg files in the current folder.<br>
-✅ Creates a with_overlay folder if it doesn't exist.
-✅ Handles corrupted or unsupported files gracefully.
+✅ Creates a with_overlay folder if it doesn't exist.<br>
+✅ Handles corrupted or unsupported files gracefully.<br>
 ✅ Provides clear feedback for each processed file.
 
 ## 6.⚙️ Customization
@@ -29,6 +29,6 @@ def add_overlay(image_path, output_path, color=(52, 55, 75, 191)):  # RGBA forma
 The color format is (R, G, B, Alpha), where Alpha controls transparency (191 = ~75% opacity).
 
 ## 7. 🖼️ Example Output
-✅ Overlay added to: with_overlay/image1_with_overlay.jpg
-✅ Overlay added to: with_overlay/image2_with_overlay.jpg
+✅ Overlay added to: with_overlay/image1_with_overlay.jpg<br>
+✅ Overlay added to: with_overlay/image2_with_overlay.jpg<br>
 ✅ All overlays added successfully. Files saved in 'with_overlay'.
