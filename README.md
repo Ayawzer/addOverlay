@@ -16,7 +16,7 @@ This Python script adds a semi-transparent overlay to all `.jpg` images in the f
 ## 4.The modified images will be saved in a newly created with_overlay folder.
 
 ## 5.🎯 Features
-✅ Automatically processes all .jpg files in the current folder.
+✅ Automatically processes all .jpg files in the current folder.<br>
 ✅ Creates a with_overlay folder if it doesn't exist.
 ✅ Handles corrupted or unsupported files gracefully.
 ✅ Provides clear feedback for each processed file.
